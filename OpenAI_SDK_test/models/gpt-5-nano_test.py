@@ -4,7 +4,6 @@ import time
 from openai import OpenAI
 from agents import Agent, Runner, ModelSettings
 
-# Inject it into the environment manually
 os.environ["OPENAI_API_KEY"] = env.OPENAI_API_KEY
 
 """
