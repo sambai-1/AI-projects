@@ -8,7 +8,7 @@ from agents import Agent, Runner, function_tool, ModelSettings
 
 @function_tool
 def get_weather(city: str) -> str:
-    return "bob"
+    return "bob2"
     return f"The weather in {city} is sunny."
 
 
